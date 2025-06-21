@@ -37,10 +37,6 @@ public class LoginActivity extends AppCompatActivity {
         shared = getSharedPreferences("data", MODE_PRIVATE);
         Shared_Task = getSharedPreferences("Task", MODE_PRIVATE);
 
-        SharedPreferences.Editor EdLog = shared.edit();
-        EdLog.clear();
-        EdLog.apply();
-
         SharedPreferences.Editor EdTas = Shared_Task.edit();
         EdTas.clear();
         EdTas.apply();
